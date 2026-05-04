@@ -1,9 +1,12 @@
 import { test, expect } from '@playwright/test';
 
-// Valida que o botão de login está visível na página inicial
+// Testa se o botão de login executa o login com credenciais válidas
+// e redireciona para a página de inventário
 
-test('login button should be visible on the login page', async ({ page }) => {
+test('login-button: deve executar login com sucesso', async ({ page }) => {
   await page.goto('/');
-  const loginButton = page.locator('[data-test=login-button]');
-  await expect(loginButton).toBeVisible();
+  await page.fill('#user-name', 'standard_user');
+  await page.fill('#password', 'secret_sauce');
+  await page.click('#login-button');
+  await expect(page).toHaveURL(/inventory.html/);
 });
