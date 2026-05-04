@@ -1,0 +1,24 @@
+<testsuites id="" name="" tests="8" failures="0" skipped="0" errors="0" time="21.824656">
+<testsuite name="cart.spec.ts" timestamp="2026-05-04T17:10:56.777Z" hostname="chromium" tests="2" failures="0" skipped="0" time="5.738" errors="0">
+<testcase name="Carrinho - SauceDemo › adicionar e remover item atualiza badge do carrinho" classname="cart.spec.ts" time="3.213">
+</testcase>
+<testcase name="Carrinho - SauceDemo › adicionar dois itens e abrir carrinho lista os dois" classname="cart.spec.ts" time="2.525">
+</testcase>
+</testsuite>
+<testsuite name="checkout.spec.ts" timestamp="2026-05-04T17:10:56.777Z" hostname="chromium" tests="2" failures="0" skipped="0" time="5.338" errors="0">
+<testcase name="Checkout - SauceDemo › fluxo completo de compra de um item" classname="checkout.spec.ts" time="2.842">
+</testcase>
+<testcase name="Checkout - SauceDemo › checkout sem preencher CEP mostra erro" classname="checkout.spec.ts" time="2.496">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="2026-05-04T17:10:56.777Z" hostname="chromium" tests="4" failures="0" skipped="0" time="7.509" errors="0">
+<testcase name="Login - SauceDemo › login com standard_user redireciona para inventory" classname="login.spec.ts" time="2.073">
+</testcase>
+<testcase name="Login - SauceDemo › login com locked_out_user mostra mensagem de bloqueio" classname="login.spec.ts" time="1.643">
+</testcase>
+<testcase name="Login - SauceDemo › login com senha errada mostra erro" classname="login.spec.ts" time="2.011">
+</testcase>
+<testcase name="Login - SauceDemo › login sem usuário mostra erro de campo obrigatório" classname="login.spec.ts" time="1.782">
+</testcase>
+</testsuite>
+</testsuites>
